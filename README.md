@@ -1,2 +1,8 @@
-# principles-and-practices
-Documentation of how we intend to deliver valuable software to our customers quickly
+# POP development principles and practices
+
+This is a guide as to how we expect software developed at POP so that we can deliver the best experience to our business stakeholders and customers.
+
+It is a set of guidelines, not rules, use your judgment to create appropriate solutions.
+
+This guide exists to document what we have agreed, what is required of us and what has been successful.
+
