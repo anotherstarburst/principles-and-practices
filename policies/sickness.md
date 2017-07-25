@@ -1,3 +1,7 @@
+---
+layout: page
+---
+# Sickness
 
 If you are sick please contact your line manager before 10am. This can by via email or Slack.
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Core Technologies
+---
 
 # Core technologies
 

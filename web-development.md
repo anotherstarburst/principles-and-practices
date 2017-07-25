@@ -1,3 +1,7 @@
+---
+layout: default
+title: Web Development
+---
 
 # Web development practices
 

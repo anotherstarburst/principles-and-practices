@@ -1,3 +1,7 @@
+---
+layout: default
+title: Project Structure
+---
 
 # Project structure
 
