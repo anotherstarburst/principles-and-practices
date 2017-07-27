@@ -1,3 +1,7 @@
+---
+layout: page
+title: Web Development
+---
 
 # Web development practices
 

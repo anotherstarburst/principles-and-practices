@@ -1,3 +1,7 @@
+---
+layout: page
+title: Project Structure
+---
 
 # Project structure
 
