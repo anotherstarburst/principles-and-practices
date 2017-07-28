@@ -18,7 +18,7 @@ description: Documenting conventions and practices that make developing at POP b
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
