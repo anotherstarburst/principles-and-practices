@@ -16,7 +16,7 @@
 title: POP Development
 description: > # this means to ignore newlines until "baseurl:"
   A guide to developing things at POP
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/principles-and-practices" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
