@@ -3,8 +3,6 @@ layout: page
 title: Core Technologies
 ---
 
-# Core technologies
-
 We current have experience and expertise in:
 
 * Python
@@ -14,21 +12,21 @@ We current have experience and expertise in:
 
 ## Language specific tools and frameworks
 
-## Python
+### Python
 
-### Whitelist
+#### Whitelist
 
 * Flask
 
-### Greylist
+#### Greylist
 
 Currently in use but don't use more of it
 
 * Turbogears
 
-## Javascript
+### Javascript
 
-### Whitelist
+#### Whitelist
 
 * Redux
 * Webpack
