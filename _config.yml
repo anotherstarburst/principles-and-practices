@@ -44,3 +44,5 @@ header_pages:
   - about.md
   - policies/index.md
   - core-technologies/index.md
+  - web-development/index.md
+  - projects/index.md
