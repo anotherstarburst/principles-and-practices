@@ -1,6 +1,8 @@
 ---
 layout: page
+title: Holiday and leave procedures
 ---
+
 # Holiday
 
 Holiday can be requested by emailing the Head of Development and cc'ing in the calendar manager.
