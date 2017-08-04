@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Web Development
+title: Web Development practices
 ---
 
-# Web development practices
+## Vendor prefixes
 
 Do not use vendor prefixes. Stick to the standard prefix and let the functionality take effect when it is ready.
 
