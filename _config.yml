@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-relative-links
 
@@ -43,7 +43,4 @@ exclude:
 header_pages:
   - about.md
   - policies/index.md
-  - core-technologies/index.md
-  - conventions/index.md
-  - web-development/index.md
-  - projects/index.md
+  - practices/index.md
