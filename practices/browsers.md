@@ -7,14 +7,18 @@ title: Browsers
 
 ## Core browsers
 
-Our core supported browsers are:
+Our core supported browser is:
 
 * Evergreen Chrome
-* Safari 10 or higher
 
 ## Secondary browsers
+
+A large part of our userbase uses Safari so we should try to support
+
+* Safari 10 or higher
 
 We should try to avoid breaking the following browsers but we should not make special efforts to support or workaround bugs in them:
 
 * Edge
 * Firefox
+

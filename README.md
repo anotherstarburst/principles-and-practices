@@ -6,3 +6,6 @@ It is a set of guidelines, not rules, use your judgment to create appropriate so
 
 This guide exists to document what we have agreed, what is required of us and what has been successful.
 
+## Developing and running
+
+Use `make serve` to run the site, it should be available at http://localhost:5501/principles-and-practices/
