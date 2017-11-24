@@ -39,3 +39,7 @@ This is the key technical test. We use an extended version of the Guardian's pai
 ### Specialised tests
 
 If you are interviewing for a more specialised role there may be a different or additional technical test based around the skills needed by the role you are applying for. We do not yet have enough examples of these tests to publish them.
+
+## Dress code
+
+The POP office is casual dress so there's no need to dress up in a suit or other formal attire unless you'd like to.
