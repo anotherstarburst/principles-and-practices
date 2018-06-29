@@ -11,6 +11,4 @@ Chrome in particular changes functionality between releases in vendor-only imple
 
 ## CSS
 
-CSS should be written in CSS.
-
-Where we collaborate with external designers they commonly want to use SASS, which is fine but we should build a deployment versions and use the POP CSS project to distribute it.
+* [CSS unit conventions](css-units.md)
