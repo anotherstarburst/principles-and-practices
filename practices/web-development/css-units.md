@@ -27,7 +27,7 @@ The base font size can be sized in `px` but then all other font-sizes should be 
 
 ## Borders
 
-Thickness and radius are best expressed in `px` if they invariant.
+Thickness and radius are best expressed in `px` if they are invariant.
 
 Use `rem` if they are meant to be vary in thickness relative to accompanying content.
 
