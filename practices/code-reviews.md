@@ -48,6 +48,10 @@ If after a day your change has not been reviewed then try:
 
 * Be in favour of releasing unless you have major reservations
 * Do separate whitespace changes from functional changes
+* Be prepared to review code in areas you are unfamiliar with so you can learn about it
+* Add a :+1: to the review if you don't feel able to approve, to help indicate that you have read the PR
+* Ask for tests or more tests if you feel they will help explain the change and improve the maintainability of the codebase
+* Check for common issues
 
 ### Don'ts
 
@@ -66,3 +70,20 @@ If after a day your change has not been reviewed then try:
 ### Don'ts
 
 * Github will notify reviewers of changes and collapse comments on code that has changed since the comment so you don't need to confirm that each individual change has been made
+
+## Common issues
+
+### Parameter boundaries
+
+Check whether the code deals with the boundaries of the parameters it operates on.
+
+* How does it work if it is passed no arguments or special values such as `None` or `undefined`?
+* Does the code cope with empty values such as the empty list or empty string?
+
+#### Upper bounds
+
+Does the code impose any maximum limit on the work it handles. If it was passed a lot of data would it be able to handle it? Would the physical time taken to execute the code exceed any timeouts with the proxy, database or execution environment?
+
+In computer science terms is the code O(1) or O(n) or worse?
+
+In this case it might be reasonable to ask how the reviewee expects the code to behave, will it intentionally crash or timeout? Is there a better solution?
