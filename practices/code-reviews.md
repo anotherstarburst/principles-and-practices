@@ -42,6 +42,10 @@ If after a day your change has not been reviewed then try:
 1. assigning a reviewer to the PR on Github
 1. asking for a review on Slack
 
+## Dangerous changes
+
+For big or important changes try to get reviews from multiple reviewers, the more people who see and agree with your change then the easier it will be to support and release it.
+
 ## For code reviewers
 
 ### Dos
@@ -59,6 +63,16 @@ If after a day your change has not been reviewed then try:
 * Assume you know what the code should be doing, ask if you are not sure
 * Don't get into a big comment thread with another reviewer on someone else's pull request, take the conversation onto Slack or the real-world
 * Be pedantic
+
+### Use of Github statuses
+
+Request changes when you think the change should **not** be merged into the codebase. You should use it when you have strong concerns that the PR does not address the problem it is meant to solve, when there are problems with the code or logic, the code differs substantially from the conventions of the codebase, there isn't enough tests to support the new code or there is any other fundamental issue that means the change would reduce the overall quality of the product.
+
+Comment when you have questions, when you are unsure about whether a PR should be merged or not or you have an observation about one aspect of a change but no general opionion.
+
+Approve the changes when you think the change addresses the problem and should be merged into the code base
+
+An approval can also be conditional, for example if you think another reviewer has already make the salient points you can approve on the condition that the other reviewer's issues are resolved satisfactorily. You can also approve something conditional on the creation of new Github Issues or JIRA tickets to address particular areas of concern. This can be particularly useful in stopping perfection being the enemy of the good.
 
 ## For reviewees
 
