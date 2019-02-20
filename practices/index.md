@@ -11,4 +11,5 @@ Guides on how to collaborate effectively on the POP codebases.
 * [Documentation](documentation.md)
 * [Conventions](conventions/index.md)
 * [Browsers](browsers.md)
+* [Security](security/index.md)
 * [Web development](web-development/index.md)
