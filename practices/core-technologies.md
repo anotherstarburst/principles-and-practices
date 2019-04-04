@@ -14,22 +14,31 @@ We current have experience and expertise in:
 
 ### Python
 
-#### Whitelist
+#### Do use
 
 * Flask
 
-#### Greylist
+#### Retire
 
 Currently in use but don't use more of it
 
 * Turbogears
-* LESS
 
 ### Javascript
 
-#### Whitelist
+#### Do use
 
-* Redux
 * Webpack
 * React
+* CSS Modules
 
+#### Retire
+
+* Redux (use React Hooks instead)
+* Flow (use Typescript instead)
+* LESS
+* jQuery
+
+#### Don't use
+
+* Inline styling in React Components
