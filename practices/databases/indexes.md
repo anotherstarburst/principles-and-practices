@@ -31,6 +31,10 @@ If you're adding a foreign key, use the SQLAchemy Column keyword argument `index
 
 Always try to reference an indexed set of columns on the foreign key table.
 
+In Postgres an index is *not* automatically created when a Foreign Key is created because, despite the name, the Foreign Key is primarily a constraint that restricts the values in the child column to those present in the parent.
+
+However Foreign Key columns are often used in joins which then means they need performant lookups to avoid a query slowdown.
+
 ## Using indexes on the SQLAlchemy model
 
 You define a column as indexed on the model but this is just advisory. You need to actually create the index on the database by generating a migration.
